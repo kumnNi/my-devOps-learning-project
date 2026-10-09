@@ -6,7 +6,7 @@ import express from "express";
 
 	res.send("Hello Word");});
 
- app.listen(PORT,() => {
-	console.log('Server riunning on port ${PORT}')
+ app.listen(PORT, () => {
+	console.log(`Server running on port ${PORT}`);
 });
 
